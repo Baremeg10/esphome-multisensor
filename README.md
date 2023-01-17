@@ -13,6 +13,7 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
     <table>
         <tr>
           <td>bme280</td>
+            text-align: center;
           <td>bh1750</td>
           <td>am312</td>
         </tr>
