@@ -2,7 +2,7 @@
 An esphome sensor for home assistant with motion, temperature, humidity, pressure and light level sensors.
 
 
-![sensor](/black and white sensor.png)
+![sensor](/black_and_white_sensor.jpg)
 
 ### List of parts used
 * wemos D1 mini esp32 (controller)
