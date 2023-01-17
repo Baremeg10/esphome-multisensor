@@ -13,13 +13,13 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
     <table>
 	    <tr>
     	    <td style="padding:10px">
-        	    <img src="/img/bme280.jpg" width="200"/>
+        	    <img src="/img/bme280.jpg" width="300"/>
       	    </td>
             <td style="padding:10px">
             	<img src="/img/bh1750.jpg" width="300"/>
             </td>
             <td style="padding:10px">
-            	<img src="/img/am312.jpg" width="400"/>
+            	<img src="/img/am312.jpg" width="300"/>
             </td>
         </tr>
     </table>
