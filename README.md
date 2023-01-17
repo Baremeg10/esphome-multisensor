@@ -10,9 +10,9 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 * AM312 (PIR motion)
 
 
-bme280             	       |  bh1750                   |  am312
-:-------------------------:|:-------------------------:|:-------------------------:
-![](/img/bme280.jpg)       | ![](/img/bh1750.jpg)      | ![](/img/am312.jpg)
+bme280             	       |  bh1750                   |  am312                    |  wemos D1 mini esp32
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](/img/bme280.jpg)       | ![](/img/bh1750.jpg)      | ![](/img/am312.jpg)       | ![](/img/d1mini-esp32.jpg)
 
 ## Wiring diagram
 ![wiring diagram](/Wiring.png)
