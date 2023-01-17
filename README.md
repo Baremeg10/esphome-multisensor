@@ -12,7 +12,7 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 <div id="image-table">
     <table>
         <tr>
-          <td style="text-align: center" >bme280</td>
+          <td>bme280</td>
           <td>bh1750</td>
           <td>am312</td>
         </tr>
@@ -30,7 +30,7 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
     </table>
 </div>
 
-bme280             	   |  bh1750                   |  am312
+bme280             	       |  bh1750                   |  am312
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/img/bme280.jpg)       | ![](/img/bh1750.jpg)      | ![](/img/am312.jpg)
 
