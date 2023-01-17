@@ -77,5 +77,6 @@ Infill Density = 40%
 
 
 Pictures of notches to open case and take out sensors. On the sensor you can also put the end of the screwdrivers into the mounting holes an pry them out.
-![](/img/opening-bottom.jpg) | ![](/img/notches-for-controller.jpg)
+![](/img/opening-bottom.jpg)
+![](/img/notches-for-controller.jpg)
 ![](/img/notches-for-sensors.jpg)
