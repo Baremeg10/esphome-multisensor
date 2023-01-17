@@ -5,4 +5,4 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 Here is a short description of how to assemble the multisensor.
 
 ## Wiring diagram
-![wiring diagram](/wiring.png)
+![wiring diagram](/Wiring.png)
