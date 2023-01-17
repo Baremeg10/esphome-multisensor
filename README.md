@@ -15,7 +15,7 @@ Here is a short description of how to assemble the multisensor.
 
 
 ## esphome config
-'''
+"""
 i2c:
   sda: 21
   scl: 22
@@ -43,4 +43,4 @@ binary_sensor:
     pin: 27
     name: "multisensor-esp32-0-occupancy"
     device_class: motion
-'''
+"""
