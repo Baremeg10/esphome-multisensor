@@ -1,14 +1,19 @@
 # esphome-multisensor
 An esphome sensor for home assistant with motion, temperature, humidity, pressure and light level sensors.
 
-
-![sensor](/black-and-white-sensor.jpg)
+bme280             |  bh1750          |  am312
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/img/bme280.jpg) | ![](/img/bh1750.jpg) | ![](/img/am312.jpg)
 
 ### List of parts used
 * wemos D1 mini esp32 (controller)
 * BME280 (Temperature, Humidity & Barometric Pressure)
 * BH1750 (Ligh intensity)
 * AM312 (PIR motion)
+
+![](/img/presoldering-sensors.jpg)
+![](/img/presoldering-sensors.jpg)
+![](/img/presoldering-sensors.jpg)
 
 ## Wiring diagram
 ![wiring diagram](/Wiring.png)
