@@ -13,6 +13,12 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 ## Wiring diagram
 ![wiring diagram](/Wiring.png)
 
+![](/img/presoldering-sensors.jpg)
+![](/img/pre-soldering.jpg)
+![](/img/solding-on-controller.jpg)
+![](/img/soldered-together.jpg)
+![](/img/combining-ground-leads.jpg)
+
 
 ## esphome config
 Add this to your esphome config:
