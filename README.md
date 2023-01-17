@@ -71,7 +71,7 @@ Infill Density = 40%
 ```
 
 
-## Mounting in the case
+## Mounting the case
 
 1. Make sure all the wires going thru the PCB's are not protruding past the components on the board. Cut if nessesary as these will prevent the parts to snap correctly in place.
 
@@ -86,3 +86,10 @@ Pictures of notches to open case and take out sensors. On the sensors you can al
 ![](/img/opening-bottom.jpg)
 ![](/img/notches-for-controller.jpg)
 ![](/img/notches-for-sensors.jpg)
+
+## More pictures
+![](/img/innside.jpg)
+![](/img/front-and-side.jpg)
+![](/img/top.jpg)
+![](/img/side-and-back.jpg)
+![](/img/back.jpg)
