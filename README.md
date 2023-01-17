@@ -87,7 +87,9 @@ Pictures of notches to open case and take out sensors. On the sensors you can al
 ![](/img/notches-for-controller.jpg)
 ![](/img/notches-for-sensors.jpg)
 
+
 ## More pictures
+
 ![](/img/innside.jpg)
 ![](/img/front-and-side.jpg)
 ![](/img/top.jpg)
