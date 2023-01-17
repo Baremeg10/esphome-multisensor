@@ -25,7 +25,7 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
     </table>
 </div>
 
-bme280             |  bh1750          |  am312
+bme280             	   |  bh1750                   |  am312
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/img/bme280.jpg)       | ![](/img/bh1750.jpg)      | ![](/img/am312.jpg)
 
