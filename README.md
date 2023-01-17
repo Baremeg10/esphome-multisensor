@@ -12,8 +12,8 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 <div id="image-table">
     <table>
 	    <tr>
-		<th>First Name</th>
     	    <td style="padding:10px">
+		<th>First Name</th>
         	<img src="/img/bme280.jpg" width="300"/>
       	    </td>
             <td style="padding:10px">
