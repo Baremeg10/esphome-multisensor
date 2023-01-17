@@ -9,26 +9,6 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 * BH1750 (Ligh intensity)
 * AM312 (PIR motion)
 
-<div id="image-table">
-    <table>
-        <tr>
-          <td>bme280</td>
-          <td>bh1750</td>
-          <td>am312</td>
-        </tr>
-        <tr>
-    	    <td style="padding:10px">
-        	<img src="/img/bme280.jpg" width="300"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/img/bh1750.jpg" width="300"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/img/am312.jpg" width="300"/>
-            </td>
-        </tr>
-    </table>
-</div>
 
 bme280             	       |  bh1750                   |  am312
 :-------------------------:|:-------------------------:|:-------------------------:
