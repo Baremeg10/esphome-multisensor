@@ -63,10 +63,13 @@ I have printed the case in ABS on a Voron 2.4. Other plastics are not tested, bu
 The case is designed to snap in place without any hardware. There are slots for opening the case with a small flat screwdriver.
 
 
+
 Parts:
 * top-part.stl
 * bottom-part.stl
 The parts are oriented in the correct print orientation.
+
+
 
 My print settings with 0.4 nozzle in Cura:
 ```
