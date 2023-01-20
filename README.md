@@ -96,7 +96,7 @@ Infill Density = 40%
 
 5. The last part is to attach the bottom piece to the top piece. Be careful not to bend the PCB of the PIR as the soldring attaching the PIR sensor to the PCB can come loose. Put one of the sides if the bottom into the notches on the side of the top, then push the other side firmly in place. There should be a click and the bottom should be flat with the top if mounted correctly.
 
-if you like my work, consider bying me a coffee.
+if you like my work, consider buying me a coffee.
 <a href="https://www.buymeacoffee.com/feb980y" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 Pictures of notches to open case and take out sensors. On the sensors you can also put the end of the screwdriver into the mounting holes and pry them out.
