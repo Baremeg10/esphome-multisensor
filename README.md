@@ -7,10 +7,10 @@ An esphome sensor for home assistant with motion, temperature, humidity, pressur
 ![](/black-and-white-sensor.jpg)
 
 ### Versions
-##v1.0
+## v1.0
 First sensor. Proof of concept. This sensor has a large temperature and humidity error and should be upgraded to v2.0.
 
-##v2.0
+## v2.0
 Updated design. calculating offset for temperature and hunidity based on testing and is much more accurate.
 
 updates/changes:
