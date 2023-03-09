@@ -9,6 +9,9 @@ Updated design. calculating offset for temperature and hunidity based on testing
 
 #### updates/changes:
 * New housing
+  - More air vents for the ESP32
+  - Seperate room for BME280 with dedicated air vents
+  - Added notch to support wallmount
 * Added wall mount
 * Added temperature offest curve based on testing
 * Added humidity offest calculated based on temperature curve
