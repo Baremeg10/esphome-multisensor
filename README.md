@@ -48,32 +48,60 @@ bme280             	       |  bh1750                   |  am312                 
 ## esphome config
 Add this to your esphome config:
 ```
+substitutions:
+  devicename: multisensor-esp32-2 #the main name of the sensors
+  update_interval: 10s  #the update interval for all sensors
+
 i2c:
   sda: 21
   scl: 22
   scan: true
 
 sensor:
-  - platform: bh1750
-    name: "multisensor-esp32-0-illuminance"
+  - platform: bh1750  #illuminance sensor
+    name: ${devicename}-illuminance
     address: 0x23
-    update_interval: 10s
+    update_interval: ${update_interval}
 
   - platform: bme280
     temperature:
-      name: "multisensor-esp32-0-temperature"
+      name: ${devicename}-temperature-raw
+      id: "temp_raw"
       oversampling: 16x
+      accuracy_decimals: 2
+      on_value:
+        - sensor.template.publish:
+            id: "temp"
+            #temperature curve offset based on testing
+            state: !lambda 'return (pow((1.0+0.02),(id(temp_raw).state+177.3))-34.0);'
     pressure:
-      name: "multisensor-esp32-0-pressure"
+      name: ${devicename}-pressure
     humidity:
-      name: "multisensor-esp32-0-humidity"
+      name: ${devicename}-humidity-raw
+      id: "humidity_raw"
+      on_value:
+        - sensor.template.publish:
+            id: "humidity"
+            #humidity offset besed on temperature curve
+            state: !lambda 'return ((((6.11*10.0*((7.5*id(temp_raw).state)/(237.3+id(temp_raw).state))*id(humidity_raw).state)/(100.0)))/(6.11*10.0*((7.5*id(temp).state)/(237.3+id(temp).state))))*100.0;'
     address: 0x76
-    update_interval: 5s
+    update_interval: ${update_interval}
 
+  - platform: template #temperature sensor with offset
+    name: ${devicename}-temperature
+    id: "temp"
+    unit_of_measurement: "°C"
+    update_interval: 60min #this should be high because the sensor are being pushed ipdates from sensor above
+  - platform: template #humidity sensor with offset
+    name: ${devicename}-humidity 
+    id: "humidity"
+    unit_of_measurement: "%"
+    update_interval: 60min #this should be high because the sensor are being pushed ipdates from sensor above
+    
 binary_sensor:
   - platform: gpio
     pin: 27
-    name: "multisensor-esp32-0-occupancy"
+    name: ${devicename}-occupancy
     device_class: motion
 ```
 
