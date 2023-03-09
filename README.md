@@ -13,7 +13,7 @@ First sensor. Proof of concept. This sensor has a large temperature and humidity
 ### v2.0
 Updated design. calculating offset for temperature and hunidity based on testing and is much more accurate.
 
-updates/changes:
+#### updates/changes:
 * New housing
 * Added wall mount
 * Added temperature offest curve based on testing
