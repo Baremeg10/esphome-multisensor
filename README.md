@@ -19,6 +19,8 @@ updates/changes:
 * Added temperature offest curve based on testing
 * Added humidity offest calculated based on temperature curve
 
+
+
 ### List of parts used
 * wemos D1 mini esp32 (controller)
 * BME280 (Temperature, Humidity & Barometric Pressure)
